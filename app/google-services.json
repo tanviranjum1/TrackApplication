@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "222145687471",
+    "project_id": "my-track-app-a8b89",
+    "storage_bucket": "my-track-app-a8b89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222145687471:android:f35b6d6d382eb22ed5895a",
+        "android_client_info": {
+          "package_name": "android.example.mytrackerappvertwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222145687471-83cflp34fi6ua3jloglbttmp78fjt5ji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.mytrackerappvertwo",
+            "certificate_hash": "7b44f1da442b4eb369f2f86e4f1bbc14ff3ea914"
+          }
+        },
+        {
+          "client_id": "222145687471-bdbq4t2f7d50bd8hgvs0dcknvh1qvh87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-UrkawBbzdXMVSTB9zPlaRkUF81g0xkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222145687471-bdbq4t2f7d50bd8hgvs0dcknvh1qvh87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

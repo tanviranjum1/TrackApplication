@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_myCircle"
+            android:icon="@drawable/ic_my_circle"
+            android:title="My Circle"
+            />
+
+        <item android:id="@+id/nav_trackingMe"
+            android:icon="@drawable/ic_tracking_me"
+            android:title="Tracking me"
+            />
+
+
+            <item android:id="@+id/nav_shareCode"
+                android:icon="@drawable/ic_share_code"
+                android:title="Share Code"
+                />
+
+            <item android:id="@+id/signOutMenuId"
+                android:title="Sign Out"
+                android:icon="@drawable/ic_logout"
+                />
+
+    </group>
+
+</menu>

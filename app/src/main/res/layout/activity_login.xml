@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodeEdtTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/avenir_regular"
+        android:paddingStart="7dp"
+        android:paddingEnd="12dp"
+        app:ccp_textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/signInPhoneEdtTxt"
+        android:layout_width="270dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custome_email_icon"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/avenir_regular"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryCodeEdtTxtView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signInPassEdtTxt"
+        android:layout_width="270dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_lock"
+        android:drawablePadding="12dp"
+        android:autofillHints=""
+        android:fontFamily="@font/avenir_regular"
+        android:hint="@string/password_name"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInPhoneEdtTxt"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sendOTPBtnView"
+        android:layout_width="207dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/avenir_regular"
+        android:text= "L o g i n"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInPassEdtTxt"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/homePrgBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorAccent"
+        android:indeterminateTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendOTPBtnView"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/newHere_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="84dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/avenir_regular"
+        android:text="New Here?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homePrgBar"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/createAcctTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="90dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/avenir_regular"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/newHere_txt"
+        app:layout_constraintStart_toStartOf="@+id/newHere_txt"
+        app:layout_constraintTop_toTopOf="@+id/newHere_txt"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

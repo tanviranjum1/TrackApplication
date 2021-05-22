@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/backgroundtwo"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterSecondActivity">
+
+
+
+    <TextView
+        android:id="@+id/emContacttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/avenir_regular"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Setup Emergency Contact"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:id="@+id/acct_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+
+        <EditText
+            android:id="@+id/emergencyOne_Et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:fontFamily="@font/avenir_regular"
+            android:hint="First "
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custome_email_icon"
+            android:drawablePadding="12dp"
+            android:textSize="20sp"
+            android:inputType="phone" />
+
+
+
+        <EditText
+            android:id="@+id/emergencyTwo_Et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custome_email_icon"
+            android:drawablePadding="12dp"
+            android:layout_below="@+id/emergencyOne_Et"
+            android:fontFamily="@font/avenir_regular"
+            android:hint="Second"
+            android:textSize="20sp"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/setupEmergencyBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/avenir_regular"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:text="C o n f i r m"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

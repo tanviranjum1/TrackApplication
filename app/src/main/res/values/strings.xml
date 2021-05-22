@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MapsEye</string>
+
+    <string name="phone_name">+880-12345678</string>
+    <string name="password_name">Password</string>
+    <string name="signin_name">Login</string>
+    <string name="register_name">Haven\'t Registered? Create an account</string>
+    <string name="register_name2">Have you registered? Login</string>
+    <string name="plus_name">+</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="phoneNumber_name">Phone Number</string>
+    <string name="registerName_name">Name</string>
+    <string name="registerPass_name">Password</string>
+    <string name="title_activity_sample_nav_drawer">SampleNavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
