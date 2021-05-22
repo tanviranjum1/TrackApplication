@@ -36,7 +36,7 @@
         android:drawableStart="@drawable/custome_email_icon"
         android:drawablePadding="12dp"
         android:fontFamily="@font/avenir_regular"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number"
         android:inputType="phone"
         android:maxLength="11"
         android:maxLines="1"
